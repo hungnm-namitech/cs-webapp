@@ -1,0 +1,210 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --max-lines: 3rem;
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --bright-green: #00e076;
+    --teal: #009483;
+    --bright-red: #f05457;
+    --dark-red: #c30025;
+    --light-shade-purple: #ab9dff;
+    --dark-shade-purple: #7e51e8;
+    --light-purple: #cd66fe;
+    --dark-purple: #7c197b;
+    --light-yellow: #f9e62c;
+    --light-orange: #fe7900;
+    --fresh-green: #c8f164;
+    --old-green: #019743;
+    --purple: #f48efd;
+    --black-purple: #9e1e8e;
+    --light-blue: #38befc;
+    --dark-blue: #026eb6;
+    --yellow-green: #dff818;
+    --dark-green: #038a7d;
+    --dark-orange: #fdb42a;
+    --light--shade-orange: #fe7400;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.delivery-date-and-time {
+  .cs-layout,
+  .cs-bgNews {
+    background-color: var(--bright-green);
+  }
+  .cs-news {
+    border: 2px solid var(--bright-green);
+  }
+  .cs-btn {
+    background-color: var(--teal);
+  }
+  .cs-btnTop {
+    color: var(--teal);
+    border: 1px solid var(--teal);
+  }
+}
+
+.amp-synergy-feed {
+  .cs-layout,
+  .cs-bgNews {
+    background-color: var(--bright-red);
+  }
+  .cs-news {
+    border: 2px solid var(--bright-red);
+  }
+  .cs-btn {
+    background-color: var(--dark-red);
+  }
+  .cs-btnTop {
+    color: var(--dark-red);
+    border: 1px solid var(--dark-red);
+  }
+}
+
+.smart-buy-button {
+  .cs-layout,
+  .cs-bgNews {
+    background-color: var(--light-shade-purple);
+  }
+  .cs-news {
+    border: 2px solid var(--light-shade-purple);
+  }
+  .cs-btn {
+    background-color: var(--dark-shade-purple);
+  }
+  .cs-btnTop {
+    color: var(--dark-shade-purple);
+    border: 1px solid var(--dark-shade-purple);
+  }
+}
+
+.membership {
+  .cs-layout,
+  .cs-bgNews {
+    background-color: var(--light-purple);
+  }
+  .cs-news {
+    border: 2px solid var(--light-purple);
+  }
+  .cs-btn {
+    background-color: var(--dark-purple);
+  }
+  .cs-btnTop {
+    color: var(--dark-purple);
+    border: 1px solid var(--dark-purple);
+  }
+}
+
+.amp-ticket-reservation-app {
+  .cs-layout,
+  .cs-bgNews {
+    background-color: var(--light-yellow);
+  }
+  .cs-news {
+    border: 2px solid var(--light-yellow);
+  }
+  .cs-btn {
+    background-color: var(--light-orange);
+  }
+  .cs-btnTop {
+    color: var(--light-orange);
+    border: 1px solid var(--light-orange);
+  }
+}
+
+.amp-takeout-delivery {
+  .cs-layout,
+  .cs-bgNews {
+    background-color: var(--fresh-green);
+  }
+  .cs-news {
+    border: 2px solid var(--fresh-green);
+  }
+  .cs-btn {
+    background-color: var(--old-green);
+  }
+  .cs-btnTop {
+    color: var(--old-green);
+    border: 1px solid var(--old-green);
+  }
+}
+
+.woolly-recommend {
+  .cs-layout,
+  .cs-bgNews {
+    background-color: var(--purple);
+  }
+  .cs-news {
+    border: 2px solid var(--purple);
+  }
+  .cs-btn {
+    background-color: var(--black-purple);
+  }
+  .cs-btnTop {
+    color: var(--black-purple);
+    border: 1px solid var(--black-purple);
+  }
+}
+
+.data-export {
+  .cs-layout,
+  .cs-bgNews {
+    background-color: var(--light-blue);
+  }
+  .cs-news {
+    border: 2px solid var(--light-blue);
+  }
+  .cs-btn {
+    background-color: var(--dark-blue);
+  }
+  .cs-btnTop {
+    color: var(--dark-blue);
+    border: 1px solid var(--dark-blue);
+  }
+}
+
+.multiple-ship {
+  .cs-layout,
+  .cs-bgNews {
+    background-color: var(--yellow-green);
+  }
+  .cs-news {
+    border: 2px solid var(--yellow-green);
+  }
+  .cs-btn {
+    background-color: var(--dark-green);
+  }
+  .cs-btnTop {
+    color: var(--dark-green);
+    border: 1px solid var(--dark-green);
+  }
+}
+
+.shipping-bar {
+  .cs-layout,
+  .cs-bgNews {
+    background-color: var(--dark-orange);
+  }
+  .cs-news {
+    border: 2px solid var(--dark-orange);
+  }
+  .cs-btn {
+    background-color: var(--light--shade-orange);
+  }
+  .cs-btnTop {
+    color: var(--light--shade-orange);
+    border: 1px solid var(--light--shade-orange);
+  }
+}
